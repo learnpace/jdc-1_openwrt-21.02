@@ -14,8 +14,8 @@ on:
  push:
    branches:
      - master
-#   paths:
-#     - 'Lean'
+   paths:
+     - 'Lean'
 #   schedule:
 #     - cron: 0 18 * * *
 #   watch:
