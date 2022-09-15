@@ -9,13 +9,9 @@
 name: jdc-1_openwrt-lean
 
 on:
-  push:
-    branches: 
-      - master
+  [push]
   # schedule:
   #   - cron: 0 20 * * *
-  release:
-    types: [published]
   
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
