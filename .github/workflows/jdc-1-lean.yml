@@ -16,7 +16,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: jdcloud_re-sp-01b.config
+  CONFIG_FILE: config-lean.jdc1
   DTS_FILE: mt7621_jdcloud_re-sp-01b.dts
   DIY_SH: diy-jdc.sh
   UPLOAD_CONFIG: true
